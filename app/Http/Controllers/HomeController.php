@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Car;
 use Illuminate\Support\Facades\View;
 
 class HomeController extends Controller
