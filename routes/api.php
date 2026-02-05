@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\API\CartController;
+use App\Http\Controllers\API\OrderController;
 use App\Http\Controllers\Api\ProductController;
 use App\Http\Controllers\Api\ProfileController;
 use App\Http\Controllers\Api\CategoryController;
@@ -33,4 +34,8 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/cart/add', [CartController::class, 'add']);
     Route::put('/cart/update', [CartController::class, 'update']);
     Route::delete('/cart/remove/{id}', [CartController::class, 'remove']);
+
+    Route::post('/orders', [OrderController::class, 'store']);
+    Route::get('/orders', [OrderController::class, 'index']);
+    Route::get('/orders/{id}', [OrderController::class, 'show']);
 });
