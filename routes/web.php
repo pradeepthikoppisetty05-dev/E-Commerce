@@ -12,10 +12,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+<<<<<<< HEAD
 Route::get('/card/edit', [CardController::class, 'edit'])->name('card.edit');
 
 
 Route::resource('card', CardController::class);
+=======
+>>>>>>> 0a54f5a6ebf1ee1e767211bea1331a1a7a1d776e
 
 Route::get('/signup', [SignupController::class, 'create'])->name('signup');
 // Route::get('/login', [LoginController::class, 'create'])->name('login');

@@ -1062,11 +1062,19 @@ footer {
   color: #4f7cff;
 }
 
+<<<<<<< HEAD
 .footer-bottom { 
+=======
+.footer-bottom {
+>>>>>>> 0a54f5a6ebf1ee1e767211bea1331a1a7a1d776e
   margin-top: 40px;
   text-align: center;
   border-top: 1px solid #ddd;
   padding-top: 15px;
   font-size: 14px;
   color: #777;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a54f5a6ebf1ee1e767211bea1331a1a7a1d776e
