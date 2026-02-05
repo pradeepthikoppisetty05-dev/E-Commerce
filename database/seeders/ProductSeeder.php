@@ -59,14 +59,14 @@ class ProductSeeder extends Seeder
         [
             'name' => 'Electric Multicooker',
             'price' => 999,
-            'category_id' => 2,
+            'category_id' => 4,
             'description' => 'Wattage: 600 Watts | Capacity: 1.2L',
             'image' => 'cooker.jpg'
         ],
         [
             'name' => 'Earbuds',
             'price' => 3999,
-            'category_id' => 2,
+            'category_id' => 1,
             'description' => 'TWS Ear Buds Wireless Earphones with mic',
             'image' => 'earbuds.jpg'
         ],

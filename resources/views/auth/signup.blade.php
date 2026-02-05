@@ -10,27 +10,20 @@
                     </div>
                     <h1 class="auth-page-title">Signup</h1>
 
-                    <form action="" method="post">
+                    <form action="{{ route('register') }}" method="post">
+                        @csrf
                         <div class="form-group">
-                            <input type="email" placeholder="Your Email" />
+                            <input type="email" name="email" placeholder="Your Email" />
                         </div>
                         <div class="form-group">
-                            <input type="password" placeholder="Your Password" />
+                            <input type="password" name="password" placeholder="Your Password" />
                         </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Repeat Password" />
-                        </div>
+                        
                         <hr />
                         <div class="form-group">
-                            <input type="text" placeholder="First Name" />
+                            <input type="text"name="name" placeholder="Name" />
                         </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Last Name" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Phone" />
-                        </div>
-                        <button class="btn btn-primary btn-login w-full">Register</button>
+                        <button type="submit" class="btn btn-primary btn-login w-full">Register</button>
 
                         <div class="grid grid-cols-2 gap-1 social-auth-buttons">
                             <x-google-button />
@@ -39,7 +32,7 @@
                         </div>
                         <div class="login-text-dont-have-account">
                             Already have an account? -
-                            <a href="/login.html"> Click here to login </a>
+                            <a href="{{ route('login') }}"> Click here to login </a>
                         </div>
                     </form>
                 </div>

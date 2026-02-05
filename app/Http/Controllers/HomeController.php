@@ -2,18 +2,19 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0a54f5a6ebf1ee1e767211bea1331a1a7a1d776e
+use App\Models\Product;
+use App\Models\Category;
 use Illuminate\Support\Facades\View;
 
 class HomeController extends Controller
 {
+    
     public function index()
-     {
-
-        return View::make('home.index');
-
+    {
+        $categories = Category::with('products')->get();
+        
+        $featuredProducts = Product::with('category')->latest()->take(8)->get();
+        
+        return view('Home.index', compact('categories', 'featuredProducts'));
     }
 }

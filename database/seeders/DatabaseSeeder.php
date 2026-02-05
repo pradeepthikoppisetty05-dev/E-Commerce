@@ -17,11 +17,6 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-<<<<<<< HEAD
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-=======
         User::firstOrCreate(
             ['email' => 'test@example.com'],
             [
@@ -33,7 +28,6 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategorySeeder::class,
             ProductSeeder::class,
->>>>>>> 0a54f5a6ebf1ee1e767211bea1331a1a7a1d776e
         ]);
     }
 }
