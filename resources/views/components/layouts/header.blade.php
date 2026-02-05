@@ -1,7 +1,7 @@
 <header class="navbar">
         <div class="container navbar-content">
             <a href="/" class="logo-wrapper">
-                <img src="/img/logoipsum-265.svg" alt="Logo" />
+                <img src="\img\chevron-left-svgrepo-com.svg" alt="Logo" />
             </a>
             <button class="btn btn-default btn-navbar-toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -10,16 +10,15 @@
                 </svg>
             </button>
             <div class="navbar-auth">
-                <a href="{{ route('car.create') }}" class="btn btn-add-new-car">
-                     <a href="{{ route('signup') }}" class="btn btn-add-new-car">
-                         <a href="{{ route('login') }}" class="btn btn-add-new-car">
+                <a href="{{ route('card.create') }}" class="btn btn-add-new-car">
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" style="width: 18px; margin-right: 4px">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
 
-                    Add new Car
+                    Add new Card
                 </a>
                 <div class="navbar-menu" tabindex="-1">
                     <a href="javascript:void(0)" class="navbar-menu-handler">
@@ -31,10 +30,10 @@
                     </a>
                     <ul class="submenu">
                         <li>
-                            <a href="my_cars.html">My Cars</a>
+                            <a href="my_cars.html">My Cards</a>
                         </li>
                         <li>
-                            <a href="watchlist.html">My Favourite Cars</a>
+                            <a href="watchlist.html">My Favourite Cards</a>
                         </li>
                         <li>
                             <form action="#" method="post">
@@ -43,7 +42,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="/signup.html" class="btn btn-primary btn-signup">
+                <a href="{{ route('signup') }}" class="btn btn-primary btn-signup">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" style="width: 18px; margin-right: 4px">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -52,7 +51,7 @@
 
                     Signup
                 </a>
-                <a href="/login.html" class="btn btn-login flex items-center">
+                <a href="{{ route('login') }}" class="btn btn-login flex items-center">
                     <svg style="width: 18px; fill: currentColor; margin-right: 4px" viewBox="0 0 1024 1024" version="1.1"
                         xmlns="http://www.w3.org/2000/svg">
                         <path

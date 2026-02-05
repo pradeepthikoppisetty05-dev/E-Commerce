@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Car extends Model
 {
@@ -28,7 +29,11 @@ class Car extends Model
 
     ];
 
-    protected $guarded = [
+    public function features(): HasOne{
+        return $this->hasOne(CarFeatures::class);
+    }
+    public function primaryImage(){
+        return $this->hasOne(CarImages::class)->oldestOfMany();
+    }
 
-    ];
 }

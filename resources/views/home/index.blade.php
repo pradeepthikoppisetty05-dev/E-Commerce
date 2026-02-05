@@ -1,5 +1,5 @@
 <x-app-layout title="HomePage">
-  <!-- Home Slider -->
+    <!-- Home Slider -->
     <section class="hero-slider">
         <!-- Carousel wrapper -->
         <div class="hero-slides">
@@ -8,21 +8,21 @@
                 <div class="container">
                     <div class="slide-content">
                         <h1 class="hero-slider-title">
-                            Buy <strong>The Best Cars</strong> <br />
-                            in your region
+                            Buy <strong>The Website</strong> <br>
                         </h1>
                         <div class="hero-slider-content">
                             <p>
-                                Use powerful search tool to find your desired cars based on
-                                multiple search criteria: Maker, Model, Year, Price Range, Car
-                                Type, etc...
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deserunt commodi libero
+                                magni nemo deleniti aspernatur ab repudiandae excepturi non numquam repellat expedita,
+                                modi accusantium soluta nihil quisquam sapiente eveniet.
                             </p>
 
-                            <button class="btn btn-hero-slider">Find the car</button>
+                            <button class="btn btn-hero-slider">Find</button>
                         </div>
                     </div>
                     <div class="slide-image">
-                        <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
+                        <img src="\img\image-18.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -32,19 +32,22 @@
                     <div class="slide-content">
                         <h2 class="hero-slider-title">
                             Do you want to <br />
-                            <strong>sell your car?</strong>
+                            <strong>Lorem ipsum</strong>
                         </h2>
                         <div class="hero-slider-content">
                             <p>
-                                Submit your car in our user friendly interface, describe it,
-                                upload photos and the perfect buyer will find it...
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deserunt commodi libero
+                                magni nemo deleniti aspernatur ab repudiandae excepturi non numquam repellat expedita,
+                                modi accusantium soluta nihil quisquam sapiente eveniet.
+
+
                             </p>
 
-                            <button class="btn btn-hero-slider">Add Your Car</button>
+                            <button class="btn btn-hero-slider">Add</button>
                         </div>
                     </div>
                     <div class="slide-image">
-                        <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
+                        <img src="\img\image-18.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -67,574 +70,226 @@
         </div>
     </section>
     <!--/ Home Slider -->
-    
-<main>
-  <x-search-form/>
-      <!-- New Cars -->
-      <section>
-        <div class="container">
-          <h2>Latest Added Cars</h2>
-          <div class="car-items-listing">
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
+
+    <main>
+        <x-search-form />
+
+
+        <section class="categories">
+
+
+            <div class="container">
+                <div class="heading">
+                    <h2>The Categories</h2>
                 </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
+                <div class="cards">
+                    <div class="card-items-list">
+                        <div class="card-item">
+                            <img src="\img\Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png" alt=""
+                                class="blog-item-img rounded-t" />
+                            <div class="p-medium">
+                                <div class="flex-item-center justify-between">
+                                    <small class="m-0 text-muted">New</small>
+                                    <button class="btn-heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h2 class="blog-item-title">Lorem ipsum, dolor sit</h2>
+                                <p class="blog-item-description">lorem doloe shit</p>
+                                <p class="m-0">
+                                    <span class="blog-item-badge">freg</span>
+                                    <span class="blog-item-badge">fregfe</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <img src="\img\Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png" alt=""
+                                class="blog-item-img rounded-t" />
+                            <div class="p-medium">
+                                <div class="flex-item-center justify-between">
+                                    <small class="m-0 text-muted">New</small>
+                                    <button class="btn-heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h2 class="blog-item-title">Lorem ipsum, dolor sit</h2>
+                                <p class="blog-item-description">lorem doloe shit</p>
+                                <p class="m-0">
+                                    <span class="blog-item-badge">freg</span>
+                                    <span class="blog-item-badge">fregfe</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <img src="\img\Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png" alt=""
+                                class="blog-item-img rounded-t" />
+                            <div class="p-medium">
+                                <div class="flex-item-center justify-between">
+                                    <small class="m-0 text-muted">New</small>
+                                    <button class="btn-heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h2 class="blog-item-title">Lorem ipsum, dolor sit</h2>
+                                <p class="blog-item-description">lorem doloe shit</p>
+                                <p class="m-0">
+                                    <span class="blog-item-badge">freg</span>
+                                    <span class="blog-item-badge">fregfe</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <img src="\img\Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png" alt=""
+                                class="blog-item-img rounded-t" />
+                            <div class="p-medium">
+                                <div class="flex-item-center justify-between">
+                                    <small class="m-0 text-muted">New</small>
+                                    <button class="btn-heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h2 class="blog-item-title">Lorem ipsum, dolor sit</h2>
+                                <p class="blog-item-description">lorem doloe shit</p>
+                                <p class="m-0">
+                                    <span class="blog-item-badge">freg</span>
+                                    <span class="blog-item-badge">fregfe</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <img src="\img\Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png" alt=""
+                                class="blog-item-img rounded-t" />
+                            <div class="p-medium">
+                                <div class="flex-item-center justify-between">
+                                    <small class="m-0 text-muted">New</small>
+                                    <button class="btn-heart">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h2 class="blog-item-title">Lorem ipsum, dolor sit</h2>
+                                <p class="blog-item-description">lorem doloe shit</p>
+                                <p class="m-0">
+                                    <span class="blog-item-badge">freg</span>
+                                    <span class="blog-item-badge">fregfe</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
             </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
+
+
+
+
+
+
+
+        </section>
+
+
+        <section>
+            <div class="about-wrapper">
+                <div class="container">
+                    <h2>About us</h2>
+                    <section class="about-banner">
+                        <div class="about-banner-content">
+                            <h2>Build. Buy. Launch Faster.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Rerum numquam repellat expedita, modi accusantium soluta
+                                nihil quisquam sapiente eveniet. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </section>
+
                 </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
             </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-            <div class="car-item card">
-              <a href="/view.html">
-                <img
-                  src="/img/cars/Lexus-RX200t-2016/1.jpeg"
-                  alt=""
-                  class="car-item-img rounded-t"
-                />
-              </a>
-              <div class="p-medium">
-                <div class="flex items-center justify-between">
-                  <small class="m-0 text-muted">New Jersey</small>
-                  <button class="btn-heart">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      style="width: 20px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <h2 class="car-item-title">2016 - Lexus RX200t</h2>
-                <p class="car-item-price">$25,000</p>
-                <hr />
-                <p class="m-0">
-                  <span class="car-item-badge">SUV</span>
-                  <span class="car-item-badge">Electric</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/ New Cars -->
+
+
+        </section>
+
     </main>
-  
-</x-app-layout>  
-  
+
+
+
+    <footer>
+        <div class="container">
+
+            <div class="footer-content">
+                <footer class="site-footer">
+                    <div class="footer-container">
+
+                        <div class="footer-col">
+                            <h3>The E-Commerce Website </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Rerum numquam repellat expedita modi accusantium soluta.
+                            </p>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blogs</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a href="#">E-commerce</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p>© 2026 BuyTheWebsite. All rights reserved.</p>
+                    </div>
+                </footer>
+
+
+            </div>
+        </div>
+    </footer>
+
+</x-app-layout>

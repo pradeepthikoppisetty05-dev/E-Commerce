@@ -34,9 +34,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="auth-page-image">
-                    <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
-                </div>
+            
             </div>
         </div>
     </main>

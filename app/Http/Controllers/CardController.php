@@ -1,0 +1,68 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Card;
+use Illuminate\Http\Request;
+
+class CardController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     */
+    public function index()
+    {
+        return view('card.index');
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        return view('card.create');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    // public function store(Request $request)
+    // {
+    //     // return view('card.store');
+    // }
+
+    /**
+     * Display the specified resource.
+     */
+    // public function show(Card $card)
+    // {
+    //     return view('card.show');
+    // }
+    // /**
+    //  * Show the form for editing the specified resource.
+    //  */
+    public function edit(Card $card)
+    {
+        return view('card.edit');
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    // public function update(Request $request, d $card)
+    // {
+    //     //
+    // }
+
+    // /**
+    //  * Remove the specified resource from storage.
+    //  */
+    // public function destroy(Card $card)
+    // {
+    //     //
+    // }
+    // public function search()
+    // {
+    //     return view('card.search');
+    // }
+}
