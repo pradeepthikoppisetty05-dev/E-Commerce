@@ -3,23 +3,9 @@
             <a href="/" class="logo-wrapper">
                 <img src="\img\chevron-left-svgrepo-com.svg" alt="Logo" />
             </a>
-            <button class="btn btn-default btn-navbar-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" style="width: 24px">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-            </button>
             <div class="navbar-auth">
-                
-                    
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" style="width: 18px; margin-right: 4px">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                    </svg>
-
-                    Add new Card
-                </a>
+                @auth
+                @if(auth()->user())
                 <div class="navbar-menu" tabindex="-1">
                     <a href="javascript:void(0)" class="navbar-menu-handler">
                         My Account
@@ -38,6 +24,10 @@
                         </li>
                     </ul>
                 </div>
+                @endif
+                @endauth
+
+                @guest
                 <a href="{{ route('signup') }}" class="btn btn-primary btn-signup">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" style="width: 18px; margin-right: 4px">
@@ -56,6 +46,7 @@
                     </svg>
                     Login
                 </a>
+                @endguest
             </div>
         </div>
     </header>

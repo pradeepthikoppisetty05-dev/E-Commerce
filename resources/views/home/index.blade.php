@@ -93,8 +93,9 @@
                                     <div class="card-item">
                                         <img src="{{ asset('img/' . $product->image) }}" 
                                              alt="{{ $product->name }}"
-                                             class="blog-item-img rounded-t" 
+                                             class="blog-item-img rounded-t"
                                              onerror="this.src='/img/Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png'" />
+                                             
                                         <div class="p-medium">
                                             <div class="flex-item-center justify-between">
                                                 <small class="m-0 text-muted">{{ $category->name }}</small>
