@@ -7,9 +7,11 @@ use App\Http\Controllers\CardController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\SignupController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CheckoutController;
 
 Route::get('/', [AuthController::class, 'showLoginForm'])->middleware('guest')->name('root');
 
@@ -37,8 +39,13 @@ Route::middleware('auth')->group(function () {
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
     Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');
 
-    Route::get('/checkout', [CartController::class, 'index'])->name('checkout');
+    Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
+    Route::post('/checkout/place', [CheckoutController::class, 'placeOrder'])->name('checkout.place');
+
+    Route::get('/orders', [OrderController::class, 'index'])->name('orders.index');
+    Route::get('/orders/{order}', [OrderController::class, 'show'])->name('orders.show');
 
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+    
 });
 

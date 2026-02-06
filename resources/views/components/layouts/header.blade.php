@@ -25,6 +25,12 @@
                         <li>
                             <a href="{{ route('cart') }}" class="nav-link" >Cart</a>
                         </li>
+                        <li>
+                            <a href="{{ route('products.index') }}" class="nav-link" >Products</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('orders.index') }}" class="nav-link" >Orders</a>
+                        </li>
                     </ul>
                 </div>
                 @endif

@@ -75,7 +75,7 @@
                                         View Cart
                                     </a>
 
-                                    <a href="{{ route('checkout') }}" class="btn btn-primary btn-checkout">
+                                    <a href="{{ route('checkout.index') }}" class="btn btn-primary btn-checkout">
                                         Proceed to Checkout
                                     </a>
                                 </div>
