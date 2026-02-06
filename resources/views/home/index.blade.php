@@ -8,7 +8,7 @@
                 <div class="container">
                     <div class="slide-content">
                         <h1 class="hero-slider-title">
-                            Buy <strong>The Website</strong> <br>
+                            Buy <strong>Now</strong> <br>
                         </h1>
                         <div class="hero-slider-content">
                             <p>
@@ -84,7 +84,7 @@
                     <h2>About us</h2>
                     <section class="about-banner">
                         <div class="about-banner-content">
-                            <h2>Build. Buy. Launch Faster.</h2>
+                            <h2>Browse. Buy. Delivered.</h2>
                             <p>
                                 We provide quality products across multiple categories including Electronics, 
                                 Fashion, Books, and Home Appliances. Our mission is to make online shopping 
@@ -113,8 +113,8 @@
                         <div class="footer-col">
                             <h3>The E-Commerce Website </h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Rerum numquam repellat expedita modi accusantium soluta.
+                                Discover a seamless shopping experience with a wide range of products, secure checkout,
+                                and reliable delivery. We’re here to make online shopping simple, safe, and convenient for you.
                             </p>
                         </div>
 
@@ -122,19 +122,19 @@
                             <h4>Quick Links</h4>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Blogs</a></li>
+                                <li><a href="{{ route('profile.index')}}" >Profile</a></li>
+                                <li><a href="{{ route('cart.index')}}">Cart</a></li>
+                                <li><a href="{{ route('orders.index')}}">My Orders</a></li>
                             </ul>
                         </div>
 
                         <div class="footer-col">
                             <h4>Categories</h4>
                             <ul>
-                                <li><a href="#">E-commerce</a></li>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Electronics</a></li>
+                                <li><a href="#">Fashion</a></li>
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Home Appliances</a></li>
                             </ul>
                         </div>
 

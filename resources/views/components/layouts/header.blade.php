@@ -23,7 +23,7 @@
                             </form>
                         </li>
                         <li>
-                            <a href="{{ route('cart') }}" class="nav-link" >Cart</a>
+                            <a href="{{ route('cart.index') }}" class="nav-link" >Cart</a>
                         </li>
                         <li>
                             <a href="{{ route('products.index') }}" class="nav-link" >Products</a>

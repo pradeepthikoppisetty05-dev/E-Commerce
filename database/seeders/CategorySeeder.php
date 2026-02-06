@@ -18,6 +18,9 @@ class CategorySeeder extends Seeder
         ['name' => 'Fashion'],
         ['name' => 'Books'],
         ['name' => 'Home Appliances'],
+        ['name' => 'Sports'],
+        ['name' => 'Beauty'],
+        ['name' => 'Toys'],
         ]);
     }
 }

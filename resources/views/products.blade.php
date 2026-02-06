@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <script src="{{ asset('js/app.js') }}" defer></script>
-@include('components.layouts.header')
+
 <main>
         <x-search-form />
 
@@ -64,7 +64,7 @@
                                                 @endphp
 
                                                 @if($inCart)
-                                                    <a href="{{ route('cart') }}" class="btn btn-success btn-sm btn-in-cart">
+                                                    <a href="{{ route('cart.index') }}" class="btn btn-success btn-sm btn-in-cart">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                                             <polyline points="20 6 9 17 4 12"></polyline>
                                                         </svg>
