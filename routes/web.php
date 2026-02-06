@@ -35,7 +35,9 @@ Route::middleware('auth')->group(function () {
     Route::put('/cart/update', [CartController::class, 'update'])->name('cart.update');
     Route::delete('/cart/remove/{id}', [CartController::class, 'remove'])->name('cart.remove');
 
-    Route::get('/categories',[CategoryController::class,'index'])->name('categories.show');
+    Route::get('/categories',[CategoryController::class,'index'])->name('categories.index');
+    Route::get('/categories/{category}',[CategoryController::class,'show'])->name('categories.show');
+
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
     Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');
 
