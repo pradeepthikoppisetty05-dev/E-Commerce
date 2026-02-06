@@ -22,6 +22,9 @@
                                 <button>Logout</button>
                             </form>
                         </li>
+                        <li>
+                            <a href="{{ route('cart') }}" class="nav-link" >Cart</a>
+                        </li>
                     </ul>
                 </div>
                 @endif

@@ -75,90 +75,9 @@
     </section>
     <!--/ Home Slider -->
 
-    <main>
-        <x-search-form />
-
-
-        <section class="categories">
-@foreach($categories as $category)
-            @if($category->products->count() > 0)
-                <section class="categories" id="categories">
-                    <div class="container">
-                        <div class="heading">
-                            <h2>{{ $category->name }}</h2>
-                        </div>
-                        <div class="cards">
-                            <div class="card-items-list">
-                                @foreach($category->products as $product)
-                                    <div class="card-item">
-                                        <img src="{{ asset('img/' . $product->image) }}" 
-                                             alt="{{ $product->name }}"
-                                             class="blog-item-img rounded-t"
-                                             onerror="this.src='/img/Gemini_Generated_Image_6yxz7z6yxz7z6yxz.png'" />
-                                             
-                                        <div class="p-medium">
-                                            <div class="flex-item-center justify-between">
-                                                <small class="m-0 text-muted">{{ $category->name }}</small>
-                                                @auth
-                                                    <button class="btn-heart" data-product-id="{{ $product->id }}">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                            stroke-width="1.5" stroke="currentColor" style="width: 20px">
-                                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                                                        </svg>
-                                                    </button>
-                                                @endauth
-                                            </div>
-                                            <h2 class="blog-item-title">{{ $product->name }}</h2>
-                                            <p class="blog-item-description">{{ Str::limit($product->description, 60) }}</p>
-                                            <div class="flex-item-center justify-between">
-                                                <p class="m-0">
-                                                    <span class="blog-item-badge">₹{{ number_format($product->price) }}</span>
-                                                </p>
-                                                @auth
-                                                    <button class="btn btn-primary btn-sm">Add to Cart</button>
-                                                @else
-                                                    <a href="{{ route('login') }}" class="btn btn-primary btn-sm">Login to Buy</a>
-                                                @endauth
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            @endif
-        @endforeach
-
-        {{-- Fallback if no products exist --}}
-        @if($categories->sum(fn($cat) => $cat->products->count()) == 0)
-            <section class="categories">
-                <div class="container">
-                    <div class="heading">
-                        <h2>Products</h2>
-                    </div>
-                    <div class="cards">
-                        <div class="card-items-list">
-                            <div class="card-item">
-                                <div class="p-medium text-center">
-                                    <p>No products available at the moment. Please check back later!</p>
-                                    @guest
-                                        <a href="{{ route('register') }}" class="btn btn-primary">Register to Get Notified</a>
-                                    @endguest
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        @endif
-
-
-            
-        </section>
-
-
+    <div>
+        @include('products')
+    </div>
         <section>
             <div class="about-wrapper">
                 <div class="container">
@@ -169,7 +88,7 @@
                             <p>
                                 We provide quality products across multiple categories including Electronics, 
                                 Fashion, Books, and Home Appliances. Our mission is to make online shopping 
-                                easy, secure, and enjoyable for everyone.
+                                easy, secure, and enjoyable for everyoneee.
                             </p>
                         </div>
                     </section>
