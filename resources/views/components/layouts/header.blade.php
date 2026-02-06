@@ -31,6 +31,12 @@
                         <li>
                             <a href="{{ route('orders.index') }}" class="nav-link" >Orders</a>
                         </li>
+                        <li>
+                            <a href="{{ route('categories.index') }}" class="nav-link" >Categories</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('profile.index') }}" class="nav-link" >Profile</a>
+                        </li>
                     </ul>
                 </div>
                 @endif

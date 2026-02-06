@@ -10,6 +10,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\SignupController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CheckoutController;
 
@@ -29,6 +30,11 @@ Route::middleware('guest')->group(function () {
 });
 
 Route::middleware('auth')->group(function () {
+
+    Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
+    Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
+    Route::post('/profile/change-password', [ProfileController::class, 'changePassword'])->name('profile.password');
+
     Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
     Route::get('/cart', [CartController::class, 'index'])->name('cart');
     Route::post('/cart/add', [CartController::class, 'add'])->name('cart.add');
