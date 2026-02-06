@@ -1,67 +1,77 @@
-<header class="navbar">
-        <div class="container navbar-content">
-            <a href="/" class="logo-wrapper">
-                <img src="\img\chevron-left-svgrepo-com.svg" alt="Logo" />
-            </a>
-            <div class="navbar-auth">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+        
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="/img/chevron-left-svgrepo-com.svg" alt="Logo" width="28" class="me-2">
+            <strong>E-Commerce</strong>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+
+            <!-- Left Links (Authenticated) -->
+            @auth
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="{{ route('products.index') }}" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('categories.index') }}" class="nav-link">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('orders.index') }}" class="nav-link">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('cart.index') }}" class="nav-link">Cart</a>
+                </li>
+            </ul>
+            @endauth
+
+            <!-- Right Buttons -->
+            <div class="d-flex align-items-center gap-2">
+
+                <button class="btn btn-outline-primary" >
+                    <a href="{{ route('profile.index') }}" class="nav-link">Profile</a>
+                </button>
                 @auth
-                @if(auth()->user())
-                <div class="navbar-menu" tabindex="-1">
-                    <a href="javascript:void(0)" class="navbar-menu-handler">
-                        My Account
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" style="width: 20px">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </a>
-                    <ul class="submenu">
-                        
-                        <li>
-                            <form action="{{ route('logout') }}" method="post">
-                                @csrf
-                                <button>Logout</button>
-                            </form>
-                        </li>
-                        <li>
-                            <a href="{{ route('cart.index') }}" class="nav-link" >Cart</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('products.index') }}" class="nav-link" >Products</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('orders.index') }}" class="nav-link" >Orders</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('categories.index') }}" class="nav-link" >Categories</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('profile.index') }}" class="nav-link" >Profile</a>
-                        </li>
-                    </ul>
-                </div>
-                @endif
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button class="btn btn-outline-danger btn-sm">Logout</button>
+                </form>
                 @endauth
 
                 @guest
-                <a href="{{ route('signup') }}" class="btn btn-primary btn-signup">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" style="width: 18px; margin-right: 4px">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                    </svg>
-
-                    Signup
-                </a>
-                <a href="{{ route('login') }}" class="btn btn-login flex items-center">
-                    <svg style="width: 18px; fill: currentColor; margin-right: 4px" viewBox="0 0 1024 1024" version="1.1"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M426.666667 736V597.333333H128v-170.666666h298.666667V288L650.666667 512 426.666667 736M341.333333 85.333333h384a85.333333 85.333333 0 0 1 85.333334 85.333334v682.666666a85.333333 85.333333 0 0 1-85.333334 85.333334H341.333333a85.333333 85.333333 0 0 1-85.333333-85.333334v-170.666666h85.333333v170.666666h384V170.666667H341.333333v170.666666H256V170.666667a85.333333 85.333333 0 0 1 85.333333-85.333334z"
-                            fill="" />
-                    </svg>
-                    Login
-                </a>
+                <a href="{{ route('signup') }}" class="btn btn-primary btn-sm">Signup</a>
+                <a href="{{ route('login') }}" class="btn btn-outline-secondary btn-sm">Login</a>
                 @endguest
+
             </div>
+
         </div>
-    </header>
+    </div>
+</nav>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
